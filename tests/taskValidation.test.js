@@ -36,7 +36,7 @@ test("accepts a valid task title", () => {
     title: "Complete Docker practical",
   });
 
-  assert.equal(result.nextCalled, false);
+  assert.equal(result.nextCalled, true);
   assert.equal(result.statusCode, undefined);
 });
 
